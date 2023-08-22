@@ -20,7 +20,7 @@ jobs:
 
   goodbye: 
     runs-on: ubuntu-latest
-    steps
+    steps:
     - name: Good Bye Darling
     - run : echo "Good Bye Darling"
     - shell: bash
