@@ -21,6 +21,7 @@ jobs:
   goodbye:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Good Bye Darling
       - run: echo "Good Bye Darling"
       - shell: bash
